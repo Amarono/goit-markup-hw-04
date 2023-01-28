@@ -390,3 +390,30 @@ img {
   /* border: 1px solid var(--accent);
   border-top: none; */
 }
+
+/* ICONS */
+.socials-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 44px;
+  height: 44px;
+  background-color: var(--primary-brand);
+  border-radius: 50%;
+  fill: var(--background-white);
+}
+.socials-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-top: 8px;
+}
+
+.socials-icon {
+  fill: var(--secondary-bg-cl);
+}
+.socials-link:hover .socials-icon,
+.socials-link:focus .socials-icon {
+  fill: var(--accent-bg-cl);
+}
