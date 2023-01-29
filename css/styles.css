@@ -74,7 +74,7 @@ img {
 }
 
 /* Current color */
-.navigation-list .link.current {
+.link.current {
   color: var(--pressed-state);
 }
 
@@ -489,24 +489,6 @@ img {
   fill: currentColor;
 }
 
-/* footer */
-/* .social-media {
-  display: flex;
-  justify-content: center;
-  gap: 24px;
-  margin-top: 8px;
-}
-.social-media-link {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  width: 40px;
-  height: 40px;
-  background-color: var(--primary-brand);
-  border-radius: 50%;
-  fill: var(--background-white);
-} */
 .flex-footer {
   display: flex;
 }
