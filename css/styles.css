@@ -273,6 +273,10 @@ img {
   line-height: calc(24 / 20);
   letter-spacing: 0.02em;
   margin-bottom: 8px;
+  color: var(--dark);
+}
+.section-text-porfolio {
+  color: var(--text);
 }
 
 /* FLEX */
@@ -415,6 +419,7 @@ img {
 
 .filter-link {
   display: block;
+  text-decoration: none;
 }
 
 .filter-link:hover,
